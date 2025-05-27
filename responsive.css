@@ -134,14 +134,9 @@
 }
 
 .footer-container{
-    padding: 5px;
-}
-
-.social-icons a img{
-    width: 35px;
-    height: 35px;
+    flex-direction: column;
 }
 
 .footer-text p{
-    font-size: 12px;
+    font-size: 20px;
 }
