@@ -41,6 +41,7 @@ p{
     box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius:10px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .btn:hover{
