@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient( rgba(217, 236, 247, 0.993), rgb(119, 243, 243));
+
+}
+
+header{
+    background: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.home{
+    font-size: 28px;
+}
+
+span{
+    color: orange;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn{
+    width: 248px;
+    height: 64px;
+    background: linear-gradient(90deg, orange, yellow);
+    border: none;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    color: white;
+    background: violet
+}
+
+.section{
+    margin: 100px 50px;
+    text-align: center;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(253, 247, 247, 0.722);
+    border-radius: 10px;
+    padding: 40px 60px;
+}
+
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: rgba(253, 247, 247, 0.722);
+    border-radius: 10px;
+    padding: 48px;
+}
+
+.text p{
+    margin-bottom: 20px;
+}
+
+.youtube-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding:32px;
+    border: 1px solid rgb(141, 140, 140);
+}
+
+.youtube-video iframe{
+    border-radius: 10px;
+}
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+    padding: 48px;
+}
+
+.my-goals{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+.goal1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 364px; ;
+    height: 244px;
+    background: linear-gradient(white, aqua);
+    box-shadow:0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.goal2{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 364px; ;
+    height: 244px;
+    background: linear-gradient(white, aqua);
+    box-shadow:0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.goal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 364px; ;
+    height: 244px;
+    background: linear-gradient(white, aqua);
+    box-shadow:0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.goal1 a, .goal2 a, .goal3 a{
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+ background: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.social-icons img{
+   padding: 10px;
+}

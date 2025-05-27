@@ -1,0 +1,147 @@
+/* Laptop Device up to 1025*/
+@media screen and (max-width: 1200px) {
+
+}
+
+/*Tablet Device up to 641 */
+@media screen and (max-width: 1024px) {
+
+.navbar{
+    padding: 15px;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+.section{
+    margin: 50px 20px;
+}
+
+.first-container{
+    padding: 20px;
+}
+
+.second-container{
+    flex-direction: column-reverse;
+    padding: 40px;
+}
+
+.text p{
+    margin-bottom: 10px;
+}
+
+.youtube-video{
+    margin-top: 10px;
+    padding:20px;
+}
+
+.my-goals{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 60px;
+}
+.footer-container{
+    padding: 10px 20px;
+}
+
+}
+
+/* Mobile Device up to 425px */
+@media screen and (max-width:640px) {
+
+  .navbar{
+    padding: 10px 20px;
+}
+
+  .btn{
+    width: 150px;
+    height: 40px;;
+    font-size: 15px;
+}
+.home{
+    font-size: 20px;
+}
+
+.section{
+    margin: 50px 30px;
+}
+
+.first-container{
+    padding: 20px;
+  }
+
+  .text h1{
+    font-size: 20px;
+
+  }
+
+  .text h2{
+    font-size: 18px;
+  }
+
+  .text p{
+    font-size: 15px;
+  }
+
+.banner img{
+    margin-bottom: 10px;
+}
+
+.second-container{
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+
+  .second-container img{
+    width: 100%;
+  }
+
+  .youtube-video{
+    max-width: 450px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .my-goals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.goal1{
+    width: 300px;
+    height: 200px;
+  }
+  .goal2{
+    width: 300px;
+    height: 200px;
+  }
+
+.goal3{
+    width: 300px; ;
+    height: 200px;
+}
+
+.goal1 a, .goal2 a, .goal3 a{
+    font-weight: 500;
+}
+
+.footer-container{
+    padding: 5px;
+}
+
+.social-icons a img{
+    width: 35px;
+    height: 35px;
+}
+
+.footer-text p{
+    font-size: 15px;
+}
